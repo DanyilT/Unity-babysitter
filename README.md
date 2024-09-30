@@ -2,6 +2,4 @@
 
 ## Create with Code
 
-[Unity Learn Course](https://learn.unity.com/course/create-with-code)
-
-git commit -m "Unity Learn: Player Control (Create with Code Course)"
+- [My Unity Learn Account](https://learn.unity.com/u/6346828bedbc2a72ead47d33?tab=profile)
