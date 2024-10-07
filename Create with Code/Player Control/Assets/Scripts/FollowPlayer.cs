@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    [SerializeField] public GameObject player;
+    [SerializeField] private GameObject player;
     [SerializeField] private Vector3 offset = new Vector3(0, 10, -15);
 
     // Update is called once per frame
