@@ -5,9 +5,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float horsePower = 1000;
-    [SerializeField] private float turnSpeed = 100f;
+    [SerializeField] private float turnSpeed = 100;
     private float speed;
     private float rpm;
+    [SerializeField] private string horizontalInputName;
+    [SerializeField] private string verticalInputName;
     private float horizontalInput;
     private float verticalInput;
     private Rigidbody playerRb;
@@ -30,8 +32,8 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         // Get player input from player
-        horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
+        horizontalInput = Input.GetAxis(horizontalInputName);
+        verticalInput = Input.GetAxis(verticalInputName);
 
         // Check if the vehicle is on the ground
         if (IsOnGround())
