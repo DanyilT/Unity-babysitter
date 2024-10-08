@@ -42,6 +42,12 @@ public class InterfaceManager : MonoBehaviour
         {
             GameOver();
         }
+
+        // Check for space or enter key press while the main menu is active
+        if (mainMenu.activeSelf && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return)))
+        {
+            StartOrRestartGame();
+        }
     }
 
     private void UpdateScoreText()
