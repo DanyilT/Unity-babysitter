@@ -8,10 +8,10 @@ Welcome to my collection of projects developed as part of the **Create with Code
     - [Course Structure](#course-structure)
 2. [Units](#units)
     - [Unit 1: Player Control](#player-control) $ [Play the game online](https://play.unity.com/en/games/2f69c369-3963-40c4-bd73-013d19a0ed10/player-control)
-    - [Unit 2: Basic Gameplay](#basic-gameplay)
-    - [Unit 3: Sound and Effects](#sound-and-effects)
-    - [Unit 4: Gameplay Mechanics](#gameplay-mechanics)
-    - [Unit 5: User Interface](#user-interface)
+    - [Unit 2: Basic Gameplay](#basic-gameplay) $ [Play the game online](https://play.unity.com/en/games/63706822-e5b0-4538-92bf-9a031f0c1e23/basic-gameplay)
+    - [Unit 3: Sound and Effects](#sound-and-effects) $ [Play the game online](#)
+    - [Unit 4: Gameplay Mechanics](#gameplay-mechanics) $ [Play the game online](#)
+    - [Unit 5: User Interface](#user-interface) $ [Play the game online](#)
 
 ## About the Course
 
@@ -61,6 +61,7 @@ There is a total of five projects in the **Create with Code** course. Each proje
     - Camera that follows the player.
     - Obstacle avoidance
     - Simple driving simulation
+    - I put an ester egg in the game. 😈
 
 - **Unity Learn**:
     - [Unit 1: Player Control](https://learn.unity.com/project/unit-1-driving-simulation)
@@ -71,14 +72,34 @@ There is a total of five projects in the **Create with Code** course. Each proje
 
 ### [Basic Gameplay](Basic%20Gameplay)
 
-TODO: Add description, key concepts, features.
+<div style="display: flex; justify-content: space-between;">
+    <img src="Basic%20Gameplay/Screenshots/Screenshot.png" alt="Screenshot SinglePlayer" style="width: 49%;">
+    <img src="Basic%20Gameplay/Screenshots/Screenshot%20qwerty.png" alt="Screenshot MultiPlayer" style="width: 49%;">
+</div>
+
+- **Description**: This project introduces the basics of gameplay mechanics in Unity (top-down game). The player controls a character that can throw food to hungry animals running towards them. The project focuses on implementing player input, projectile launching, collision detection, and scoring system.
+
+- **Key Concepts**:
+    - Player Input
+    - Projectile Launching
+    - Pooling System
+    - Collision Detection
+    - Scoring System
+
+- **Features**:
+    - Player-controlled character by arrow keys or WASD.
+    - Food throwing mechanics.
+    - Animals running towards the player.
+    - Collision detection between food and animals.
+    - Scoring system based on the number of animals fed.
+    - I put an ester egg in the game. 😈
 
 - **Unity Learn**:
     - [Unity Learn](https://learn.unity.com/project/unit-2-basic-gameplay)
-    - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-2-share-your-work) | Not done yet
+    - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-2-share-your-work)
 
-- **Unity Play**: Play the game online on Unity's platform. (Coming soon)
-    - [Unity Play](#) | Not Uploaded yet
+- **Unity Play**:
+    - [Play the game online](https://play.unity.com/en/games/63706822-e5b0-4538-92bf-9a031f0c1e23/basic-gameplay)
 
 ### [Sound and Effects](Sound%20and%20Effects)
 
@@ -88,8 +109,8 @@ TODO: Add description, key concepts, features.
     - [Unity Learn](https://learn.unity.com/project/unit-3-sound-and-effects)
     - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-3-share-your-work) | Not done yet
 
-- **Unity Play**: Play the game online on Unity's platform. (Coming soon)
-    - [Unity Play](#) | Not Uploaded yet
+- **Unity Play**:
+    - [Play the game online](#) | Not Uploaded yet
 
 ### [Gameplay Mechanics](Gameplay%20Mechanics)
 
@@ -99,8 +120,8 @@ TODO: Add description, key concepts, features.
     - [Unity Learn](https://learn.unity.com/project/unit-4-gameplay-mechanics)
     - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-4-share-your-work) | Not done yet
 
-- **Unity Play**: Play the game online on Unity's platform. (Coming soon)
-    - [Unity Play](#) | Not Uploaded yet
+- **Unity Play**:
+    - [Play the game online](#) | Not Uploaded yet
 
 ### [User Interface](User%20Interface)
 
@@ -110,5 +131,5 @@ TODO: Add description, key concepts, features.
     - [Unity Learn](https://learn.unity.com/project/unit-5-user-interface)
     - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-5-share-your-work) | Not done yet
 
-- **Unity Play**: Play the game online on Unity's platform. (Coming soon)
-    - [Unity Play](#) | Not Uploaded yet
+- **Unity Play**:
+    - [Play the game online](#) | Not Uploaded yet
