@@ -43,6 +43,11 @@ There is a total of five projects in the **Create with Code** course. Each proje
 
 ### [Player Control](Player%20Control)
 
+<div style="display: flex; justify-content: space-between;">
+    <img src="Player%20Control/Screenshots/Screenshot%20SinglePlayer.png" alt="Screenshot SinglePlayer" style="width: 49%;">
+    <img src="Player%20Control/Screenshots/Screenshot%20MultiPlayer.png" alt="Screenshot MultiPlayer" style="width: 49%;">
+</div>
+
 - **Description**: This project introduces the basics of player control and movement in Unity. The player controls a car that can move forward, backward, and turn left or right. The project focuses on implementing player input, physics, and basic movement mechanics.
 
 - **Key Concepts**:
@@ -59,10 +64,10 @@ There is a total of five projects in the **Create with Code** course. Each proje
 
 - **Unity Learn**:
     - [Unit 1: Player Control](https://learn.unity.com/project/unit-1-driving-simulation)
-    - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-1-share-your-work) | Not done yet
+    - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-1-share-your-work)
 
-- **Unity Play**: Play the game online on Unity's platform. (Coming soon)
-    - [Unity Play](#) | Not Uploaded yet
+- **Unity Play**:
+    - [Play the game online](https://play.unity.com/en/games/2f69c369-3963-40c4-bd73-013d19a0ed10/player-control)
 
 ### [Basic Gameplay](Basic%20Gameplay)
 
