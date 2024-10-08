@@ -7,7 +7,7 @@ Welcome to my collection of projects developed as part of the **Create with Code
     - [Key Learning Objectives](#key-learning-objectives)
     - [Course Structure](#course-structure)
 2. [Units](#units)
-    - [Unit 1: Player Control](#player-control)
+    - [Unit 1: Player Control](#player-control) $ [Play the game online](https://play.unity.com/en/games/2f69c369-3963-40c4-bd73-013d19a0ed10/player-control)
     - [Unit 2: Basic Gameplay](#basic-gameplay)
     - [Unit 3: Sound and Effects](#sound-and-effects)
     - [Unit 4: Gameplay Mechanics](#gameplay-mechanics)
