@@ -95,7 +95,7 @@ There is a total of five projects in the **Create with Code** course. Each proje
     - I put an ester egg in the game. 😈
 
 - **Unity Learn**:
-    - [Unity Learn](https://learn.unity.com/project/unit-2-basic-gameplay)
+    - [Unit 2: Basic Gameplay](https://learn.unity.com/project/unit-2-basic-gameplay)
     - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-2-share-your-work)
 
 - **Unity Play**:
