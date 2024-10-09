@@ -3,15 +3,19 @@
 Welcome to my collection of projects developed as part of the **Create with Code** course by Unity. This course can tell about the fundamentals of game development using Unity and C#. Below, you'll find details on each project I completed along the way.
 
 ## Table of Contents
-1. [About the Course](#about-the-course)
+- [About the Course](#about-the-course)
     - [Key Learning Objectives](#key-learning-objectives)
     - [Course Structure](#course-structure)
-2. [Units](#units)
+- [Units](#units)
     - [Unit 1: Player Control](#player-control) $ [Play the game online](https://play.unity.com/en/games/2f69c369-3963-40c4-bd73-013d19a0ed10/player-control)
     - [Unit 2: Basic Gameplay](#basic-gameplay) $ [Play the game online](https://play.unity.com/en/games/63706822-e5b0-4538-92bf-9a031f0c1e23/basic-gameplay)
     - [Unit 3: Sound and Effects](#sound-and-effects) $ [Play the game online](https://play.unity.com/en/games/cf27018b-d6a2-4177-9827-58e2ddee2557/sound-and-effects)
     - [Unit 4: Gameplay Mechanics](#gameplay-mechanics) $ [Play the game online](#) | Not Uploaded yet
     - [Unit 5: User Interface](#user-interface) $ [Play the game online](#) | Not Uploaded yet
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [License](#license)
 
 ## About the Course
 
@@ -127,7 +131,7 @@ There is a total of five projects in the **Create with Code** course. Each proje
     - I put an ester egg in the game. 😈
 
 - **Unity Learn**:
-    - [Unity Learn](https://learn.unity.com/project/unit-3-sound-and-effects)
+    - [Unit 3: Sound and Effects](https://learn.unity.com/project/unit-3-sound-and-effects)
     - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-3-share-your-work)
 
 - **Unity Play**:
@@ -140,7 +144,7 @@ There is a total of five projects in the **Create with Code** course. Each proje
 TODO: Add description, key concepts, features.
 
 - **Unity Learn**:
-    - [Unity Learn](https://learn.unity.com/project/unit-4-gameplay-mechanics)
+    - [Unit 4: Gameplay Mechanics](https://learn.unity.com/project/unit-4-gameplay-mechanics)
     - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-4-share-your-work) | Not done yet
 
 - **Unity Play**:
@@ -153,7 +157,7 @@ TODO: Add description, key concepts, features.
 TODO: Add description, key concepts, features.
 
 - **Unity Learn**:
-    - [Unity Learn](https://learn.unity.com/project/unit-5-user-interface)
+    - [Unit 5: User Interface](https://learn.unity.com/project/unit-5-user-interface)
     - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-5-share-your-work) | Not done yet
 
 - **Unity Play**:
