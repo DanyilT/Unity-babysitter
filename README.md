@@ -1,10 +1,37 @@
-# Unity-babysitter
+# Unity Learn Courses' Projects
+
+This repository have projects from the Unity Learn Courses.
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Create with Code
 
 - [My Unity Learn Account](https://learn.unity.com/u/6346828bedbc2a72ead47d33?tab=profile)
 
 TODO: Finish this README.md
+
+## Requirements
+
+This is a Unity(project)-based repository, so you need to have Unity installed on your system.
+
+- Unity Hub
+- Unity Editor (whatever version you want)
+
+### Installation
+
+Just ask Google! or chatgpt
+
+Okay, Here it is:
+1. Download and Install Unity Hub from the [official Unity website](https://unity.com/download).
+2. Install Unity Editor via Unity Hub. Just click on the `Installs` tab and click on the `Installs Editor` button, choose the version you want to install.
+3. Just wait for the installation.
 
 ## Usage
 
@@ -31,7 +58,8 @@ TODO: Finish this README.md
 ### Run the Program
 
 - Each Unity project runs in the Unity Editor. To run the program, open the project folder in Unity Hub and select the project to open in Unity Editor.
-- Use specific versions of Unity Editor mentioned in the project's README file (if 
+- Use specific versions of Unity Editor mentioned in the project's README file (if required).
+- You can just try to open the project in any Unity Editor version. If it's opened, with no errors, then you're good to go.
 
 ## File Structure
 
