@@ -1,9 +1,11 @@
 # Unity Learn Courses' Projects
 
 This repository have projects from the Unity Learn Courses.
+- [**My Unity Learn Account**](https://learn.unity.com/u/6346828bedbc2a72ead47d33?tab=profile)
 
 ## Table of Contents
 
+- [Courses](#courses)
 - [Table of Contents](#table-of-contents)
 - [Requirements](#requirements)
 - [Usage](#usage)
@@ -11,11 +13,11 @@ This repository have projects from the Unity Learn Courses.
 - [Contributing](#contributing)
 - [License](#license)
 
-## Create with Code
+## Courses
 
-- [My Unity Learn Account](https://learn.unity.com/u/6346828bedbc2a72ead47d33?tab=profile)
+### [Create with Code](Create%20with%20Code)
 
-TODO: Finish this README.md
+- [Unity Learn Course](https://learn.unity.com/course/create-with-code)
 
 ## Requirements
 
