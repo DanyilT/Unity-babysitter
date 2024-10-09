@@ -34,7 +34,7 @@ This repository have projects from the Unity Learn "Junior Programmer Path" cour
 
 This repository is structured as follows:
 
-- [`Create with Code/`]
+- [`Create with Code/`](Create%20with%20Code/): [More about in this README](#create-with-code)
     - [`Player Control/..`](Create%20with%20Code/Player%20Control): Unity project for the Player Control unit.
     - [`Basic Gameplay/..`](Create%20with%20Code/Basic%20Gameplay): Unity project for the Basic Gameplay unit.
     - [`Sound and Effects/..`](Create%20with%20Code/Sound%20and%20Effects): Unity project for the Sound and Effects unit.
