@@ -6,7 +6,9 @@ public class InterfaceManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private TextMeshProUGUI livesText;
+    [SerializeField] private TextMeshProUGUI gameOverScore;
     [SerializeField] private GameObject mainMenu;
+    [SerializeField] private GameObject gameOverPanel;
 
     public int score = 0;
     public int lives = 3;
@@ -28,7 +30,6 @@ public class InterfaceManager : MonoBehaviour
         UpdateLivesText();
 
         // Show the main menu initially
-
         mainMenu.SetActive(true);
     }
 
@@ -44,7 +45,7 @@ public class InterfaceManager : MonoBehaviour
         }
 
         // Check for space or enter key press while the main menu is active
-        if (mainMenu.activeSelf && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return)))
+        if ((mainMenu.activeSelf || gameOverPanel.activeSelf) && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return)))
         {
             StartOrRestartGame();
         }
@@ -64,12 +65,13 @@ public class InterfaceManager : MonoBehaviour
     {
         gameOver = true;
         Debug.Log("Game Over!");
+        gameOverScore.text = "Score: \n" + score;
 
         // Freeze the game
         Time.timeScale = 0;
 
         // Show the restart button
-        mainMenu.gameObject.SetActive(true);
+        gameOverPanel.gameObject.SetActive(true);
     }
 
     public void StartOrRestartGame()
