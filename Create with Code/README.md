@@ -148,3 +148,61 @@ TODO: Add description, key concepts, features.
 
 - **Unity Play**:
     - [Play the game online](#) | Not Uploaded yet
+
+## Requirements
+
+- Unity Editor (It's no matter the version, but I'm used Unity 6 Preview)
+    - Unity 6000.0.21.f1 (If you want to open the project in Unity, It'll ask for this version, but you can use any other version)
+
+### Installation
+
+Just Google it, if you don't know how to install Unity Hub & Unity Editor. Ask ChatGpt for any help.
+
+- [Unity Hub](https://unity.com/download)
+- Unity Editor: Download from Unity Hub
+
+## Usage
+
+### Clone the Repository
+
+#### Using Git
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/DanyilT/Unity-babysitter.git
+    ```
+
+2. Navigate to the project folder:
+    - For Windows:
+         ```sh
+         cd 'Unity-babysitter\Create with Code'
+         ```
+    - For macOS and Linux:
+         ```sh
+         cd 'Unity-babysitter/Create with Code'
+         ```
+
+#### Downloading the ZIP File
+
+1. Download the ZIP file from the [GitHub repository](https://github.com/DanyilT/Unity-babysitter.git) and extract it.
+2. Navigate to the project folder in the extracted directory (`Unity-babysitter/Create with Code`).
+
+### Run the Program
+
+- **Unity Projects**: Open the project folder in Unity Hub and select the project to open in Unity Editor.
+
+## File Structure
+
+- `Player Control/` & `Basic Gameplay/` & `Sound and Effects/` & `Gameplay Mechanics/` & `User Interface/`: Unity projects for each unit.
+    - `Assets/`: Contains the assets used in the game.
+    - `Packages/`: Contains the packages used in the game.
+    - `ProjectSettings/`: Contains the settings for the Unity project.
+    - `Screenshots/`: Contains the screenshots of the game.
+    - `.gitignore`: Specifies which files and directories to ignore in Git.
+- `README.md`: You are reading it right now.
+
+## License
+
+Notice: This repository is under the MIT License. Read more about it in the [LICENSE](/LICENSE) file.
+You can use the code for your projects, but you must give credit to the original author (me) and provide a link to this repository.
+You are free to make all your dirty dreams with this code, you can even sell it, but you must provide a link to this repository (just what I said above).
