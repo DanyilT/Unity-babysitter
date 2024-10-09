@@ -15,7 +15,6 @@ public class PlayerController : MonoBehaviour
     private bool doubleJumped = false;
     public bool dash = false;
     public bool gameOver;
-    private int score = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,21 +28,15 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && !gameOver)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && isOnGround && !gameOver)
         {
-            dash = true; 
+            dash = true;
             playerAnim.SetFloat("Speed_f", 1.5f);
         }
         else if (Input.GetKeyUp(KeyCode.LeftShift) && !gameOver)
         {
             dash = false;
             playerAnim.SetFloat("Speed_f", 1.0f);
-        }
-
-        if (!gameOver)
-        {
-            score = dash ? score += 2 : score += 1;
-            Debug.Log("Score: " + score);
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && isOnGround && !gameOver)
