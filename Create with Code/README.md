@@ -9,9 +9,9 @@ Welcome to my collection of projects developed as part of the **Create with Code
 2. [Units](#units)
     - [Unit 1: Player Control](#player-control) $ [Play the game online](https://play.unity.com/en/games/2f69c369-3963-40c4-bd73-013d19a0ed10/player-control)
     - [Unit 2: Basic Gameplay](#basic-gameplay) $ [Play the game online](https://play.unity.com/en/games/63706822-e5b0-4538-92bf-9a031f0c1e23/basic-gameplay)
-    - [Unit 3: Sound and Effects](#sound-and-effects) $ [Play the game online](#)
-    - [Unit 4: Gameplay Mechanics](#gameplay-mechanics) $ [Play the game online](#)
-    - [Unit 5: User Interface](#user-interface) $ [Play the game online](#)
+    - [Unit 3: Sound and Effects](#sound-and-effects) $ [Play the game online](#) | Not Uploaded yet
+    - [Unit 4: Gameplay Mechanics](#gameplay-mechanics) $ [Play the game online](#) | Not Uploaded yet
+    - [Unit 5: User Interface](#user-interface) $ [Play the game online](#) | Not Uploaded yet
 
 ## About the Course
 
@@ -48,7 +48,7 @@ There is a total of five projects in the **Create with Code** course. Each proje
     <img src="Player%20Control/Screenshots/Screenshot%20MultiPlayer.png" alt="Screenshot MultiPlayer" style="width: 49%;">
 </div>
 
-- **Description**: This project introduces the basics of player control and movement in Unity. The player controls a car that can move forward, backward, and turn left or right. The project focuses on implementing player input, physics, and basic movement mechanics.
+- **Description**: This project introduces the basics of player control and movement in Unity (side-to-side). The player controls a car that can move forward, backward, and turn left or right. The project focuses on implementing player input, physics, and basic movement mechanics.
 
 - **Key Concepts**:
     - Input handling
@@ -103,16 +103,29 @@ There is a total of five projects in the **Create with Code** course. Each proje
 
 ### [Sound and Effects](Sound%20and%20Effects)
 
+- **Description**: This project introduces the basics of sound and visual effects in Unity. The player controls a character that can jump over obstacles in an endless runner game. The project focuses on adding background music, sound effects, particle effects, and dynamic backgrounds to enhance the gaming experience.
+
 TODO: Add description, key concepts, features.
+
+- **Key Concepts**:
+    - Background Music
+    - Sound Effects
+    - Particle Effects
+    - Dynamic Backgrounds
+
+- **Features**:
+    ??????????????????????
 
 - **Unity Learn**:
     - [Unity Learn](https://learn.unity.com/project/unit-3-sound-and-effects)
-    - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-3-share-your-work) | Not done yet
+    - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-3-share-your-work)
 
 - **Unity Play**:
     - [Play the game online](#) | Not Uploaded yet
 
 ### [Gameplay Mechanics](Gameplay%20Mechanics)
+
+- **Description**: This project introduces more complex gameplay mechanics in Unity. The player controls a character that can knock enemies off a floating island. The project focuses on implementing power-ups, enemy waves, and increasing difficulty to create a challenging and engaging gameplay experience.
 
 TODO: Add description, key concepts, features.
 
@@ -124,6 +137,8 @@ TODO: Add description, key concepts, features.
     - [Play the game online](#) | Not Uploaded yet
 
 ### [User Interface](User%20Interface)
+
+- **Description**: This project introduces the basics of user interface design in Unity. The player can click on objects to destroy them before they fall off the screen. The project focuses on implementing UI elements such as title screens, difficulty selection, score display, and game over screens.
 
 TODO: Add description, key concepts, features.
 
