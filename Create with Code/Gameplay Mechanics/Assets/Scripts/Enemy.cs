@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float speed = 3.0f;
+    [SerializeField] private float speed = 3.0f;
     private Rigidbody enemyRb;
     private GameObject player;
 
@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         enemyRb = GetComponent<Rigidbody>();
-        player = GameObject.Find("Player");
+        player = GameObject.FindWithTag("Player");
     }
 
     // Update is called once per frame

@@ -2,35 +2,89 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject enemyPrefab;
-    public GameObject powerupPrefab;
+    public GameObject[] enemiesPrefab;
+    public GameObject[] powerupsPrefab;
     private float spawnRange = 9.0f;
-    public int enemyCount;
-    public int waveNumber = 1;
+    internal int waveNumber = 1;
+    private int enemyCount;
+    private bool gameStarted = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        SpawnEnemyWave(waveNumber);
-        Instantiate(powerupPrefab, GenerateSpawnPosition(), powerupPrefab.transform.rotation);
+        //StartGame();
+    }
+
+    internal void StartGame()
+    {
+        gameStarted = true;
+        waveNumber = 1;
+        SpawnEnemyWave();
+        SpawnPowerup();
     }
 
     void Update()
     {
-        enemyCount = FindObjectsOfType<Enemy>().Length;
+        if (!gameStarted) return;
+
+        enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
+
         if (enemyCount == 0)
         {
             waveNumber++;
-            SpawnEnemyWave(waveNumber);
-            Instantiate(powerupPrefab, GenerateSpawnPosition(), powerupPrefab.transform.rotation);
+            SpawnEnemyWave();
+            SpawnPowerup();
         }
     }
 
-    private void SpawnEnemyWave(int enemiesToSpawn)
+    private void SpawnEnemyWave()
+    {
+        if (waveNumber % 5 == 0)
+        {
+            SpawnBoss();
+        }
+        else
+        {
+            SpawnEnemies(waveNumber);
+        }
+    }
+
+    private void SpawnBoss()
+    {
+        // Looking for Boss prefab in the enemiesPrefab array and instantiating it
+        foreach (GameObject enemy in enemiesPrefab)
+        {
+            if (enemy.name.Contains("Boss"))
+            {
+                Instantiate(enemy, GenerateSpawnPosition(), enemy.transform.rotation);
+                break;
+            }
+        }
+    }
+
+    internal void SpawnEnemies(int enemiesToSpawn)
     {
         for (int i = 0; i < enemiesToSpawn; i++)
         {
-            Instantiate(enemyPrefab, GenerateSpawnPosition(), enemyPrefab.transform.rotation);
+            bool spawnBigBob = Random.Range(0, 2) == 0 && enemiesToSpawn - i > 1;
+
+            if (spawnBigBob)
+            {
+                Instantiate(enemiesPrefab[1], GenerateSpawnPosition(), enemiesPrefab[1].transform.rotation);
+                i++; // Big Bob takes 2 slots (one added here and one in the for loop)
+            }
+            else
+            {
+                Instantiate(enemiesPrefab[0], GenerateSpawnPosition(), enemiesPrefab[0].transform.rotation);
+            }
+        }
+    }
+
+    private void SpawnPowerup(int powerupsToSpawn = 1)
+    {
+        for (int i = 0; i < powerupsToSpawn; i++)
+        {
+            Instantiate(powerupsPrefab[Random.Range(0, powerupsPrefab.Length)], GenerateSpawnPosition(), Quaternion.identity);
         }
     }
 
