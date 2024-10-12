@@ -17,9 +17,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float smashForce = 200.0f;
     private Coroutine fireRocketsCoroutine;
     private List<GameObject> spawnedRockets = new List<GameObject>();
-    private bool hasStrengthPowerup = false;
-    private bool hasFirePowerup = false;
-    private bool hasSmashPowerup = false;
+    internal bool hasStrengthPowerup = false;
+    internal bool hasFirePowerup = false;
+    internal bool hasSmashPowerup = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

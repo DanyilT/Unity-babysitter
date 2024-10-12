@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Interface : MonoBehaviour
 {
+    private PlayerController playerController;
     private SpawnManager spawnManager;
     private GameObject player;
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private GameObject gameOverMenu;
+    [SerializeField] private TextMeshProUGUI tipsText;
     [SerializeField] private TextMeshProUGUI waveText;
     [SerializeField] private TextMeshProUGUI gameOverText;
 
@@ -20,6 +22,7 @@ public class Interface : MonoBehaviour
 
         spawnManager = GameObject.Find("Spawn Manager").GetComponent<SpawnManager>();
         player = GameObject.Find("Player");
+        playerController = player.GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
@@ -32,8 +35,29 @@ public class Interface : MonoBehaviour
             Time.timeScale = 0;
         }
 
+        UpdatePowerupTips();
         waveText.text = $"Wave: {spawnManager.waveNumber}";
         gameOverText.text = $"Final Wave: \n{spawnManager.waveNumber}";
+    }
+
+    private void UpdatePowerupTips()
+    {
+        if (playerController.hasStrengthPowerup)
+        {
+            tipsText.text = "Strength Powerup Active!";
+        }
+        else if (playerController.hasFirePowerup)
+        {
+            tipsText.text = "Fire Powerup Active!";
+        }
+        else if (playerController.hasSmashPowerup)
+        {
+            tipsText.text = "Smash Powerup Active!\n<press `Space`>";
+        }
+        else
+        {
+            tipsText.text = "";
+        }
     }
 
     public void OnStartGameButtonClicked()
