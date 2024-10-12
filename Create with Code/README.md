@@ -10,7 +10,7 @@ Welcome to my collection of projects developed as part of the **Create with Code
     - [Unit 1: Player Control](#player-control) $ [Play the game online](https://play.unity.com/en/games/2f69c369-3963-40c4-bd73-013d19a0ed10/player-control)
     - [Unit 2: Basic Gameplay](#basic-gameplay) $ [Play the game online](https://play.unity.com/en/games/63706822-e5b0-4538-92bf-9a031f0c1e23/basic-gameplay)
     - [Unit 3: Sound and Effects](#sound-and-effects) $ [Play the game online](https://play.unity.com/en/games/cf27018b-d6a2-4177-9827-58e2ddee2557/sound-and-effects)
-    - [Unit 4: Gameplay Mechanics](#gameplay-mechanics) $ [Play the game online](#) | Not Uploaded yet
+    - [Unit 4: Gameplay Mechanics](#gameplay-mechanics) $ [Play the game online](https://play.unity.com/en/games/4959666d-9d91-4867-88e2-6ca6d04ba2cd/gameplay-mechanics)
     - [Unit 5: User Interface](#user-interface) $ [Play the game online](#) | Not Uploaded yet
 - [Requirements](#requirements)
 - [Usage](#usage)
@@ -139,16 +139,34 @@ There is a total of five projects in the **Create with Code** course. Each proje
 
 ### [Gameplay Mechanics](Gameplay%20Mechanics)
 
+<div style="display: flex; justify-content: space-between;">
+    <img src="Gameplay%20Mechanics/Screenshots/Screenshot.png" alt="Screenshot" style="width: 49%;">
+    <img src="Gameplay%20Mechanics/Screenshots/Screenshot%20qwerty.png" alt="Screenshot qwerty" style="width: 49%;">
+</div>
+
 - **Description**: This project introduces more complex gameplay mechanics in Unity. The player controls a character that can knock enemies off a floating island. The project focuses on implementing power-ups, enemy waves, and increasing difficulty to create a challenging and engaging gameplay experience.
 
-TODO: Add description, key concepts, features.
+- **Key Concepts**:
+    - Power-ups
+    - Enemy Waves
+    - Difficulty Levels
+    - Game Over Screen
+
+- **Features**:
+    - Player-controlled character by arrow keys or WASD.
+    - Forward and backward by [W/S] or [Up/Down] keys. & Rotate camera by [A/D] or [Left/Right] keys.
+    - Enemies to knock off the island.
+    - Power-ups to increase player abilities.
+    - Enemy waves with increasing difficulty.
+    - Game over screen with score display.
+    - I put an ester egg in the game. 😈
 
 - **Unity Learn**:
     - [Unit 4: Gameplay Mechanics](https://learn.unity.com/project/unit-4-gameplay-mechanics)
-    - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-4-share-your-work) | Not done yet
+    - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-4-share-your-work)
 
 - **Unity Play**:
-    - [Play the game online](#) | Not Uploaded yet
+    - [Play the game online](https://play.unity.com/en/games/4959666d-9d91-4867-88e2-6ca6d04ba2cd/gameplay-mechanics)
 
 ### [User Interface](User%20Interface)
 
