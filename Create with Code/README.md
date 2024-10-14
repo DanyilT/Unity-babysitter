@@ -6,12 +6,13 @@ Welcome to my collection of projects developed as part of the **Create with Code
 - [About the Course](#about-the-course)
     - [Key Learning Objectives](#key-learning-objectives)
     - [Course Structure](#course-structure)
+    - [About Easter Eggs](#about-easter-eggs)
 - [Units](#units)
     - [Unit 1: Player Control](#player-control) $ [Play the game online](https://play.unity.com/en/games/2f69c369-3963-40c4-bd73-013d19a0ed10/player-control)
     - [Unit 2: Basic Gameplay](#basic-gameplay) $ [Play the game online](https://play.unity.com/en/games/63706822-e5b0-4538-92bf-9a031f0c1e23/basic-gameplay)
     - [Unit 3: Sound and Effects](#sound-and-effects) $ [Play the game online](https://play.unity.com/en/games/cf27018b-d6a2-4177-9827-58e2ddee2557/sound-and-effects)
     - [Unit 4: Gameplay Mechanics](#gameplay-mechanics) $ [Play the game online](https://play.unity.com/en/games/4959666d-9d91-4867-88e2-6ca6d04ba2cd/gameplay-mechanics)
-    - [Unit 5: User Interface](#user-interface) $ [Play the game online](#) | Not Uploaded yet
+    - [Unit 5: User Interface](#user-interface) $ [Play the game online](https://play.unity.com/en/games/1d5f9996-bf75-42b5-b299-8bb1b7cdf592/user-interface)
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [File Structure](#file-structure)
@@ -35,11 +36,17 @@ The "Create with Code" course is a comprehensive introduction to Unity and game 
 
 The course is divided into several units, each focusing on different aspects of game development:
 
-1. **Player Control**: Learn how to control game objects and implement player movement.
-2. **Basic Gameplay**: Understand the fundamentals of gameplay mechanics and interactions.
-3. **Sound and Effects**: Add audio and visual effects to your game.
-4. **Gameplay Mechanics**: Dive deeper into more complex gameplay mechanics.
-5. **User Interface**: Create and manage user interfaces for your game.
+1. [**Player Control**](#player-control): Learn how to control game objects and implement player movement.
+2. [**Basic Gameplay**](#basic-gameplay): Understand the fundamentals of gameplay mechanics and interactions.
+3. [**Sound and Effects**](#sound-and-effects): Add audio and visual effects to your game.
+4. [**Gameplay Mechanics**](#gameplay-mechanics): Dive deeper into more complex gameplay mechanics.
+5. [**User Interface**](#user-interface): Create and manage user interfaces for your game.
+
+### About Easter Eggs
+
+- I put an ester egg in each game. 🫠
+- You can read 'egg code' in `SomethingIsHappeningThere.cs` in `<project-name>/Assets/Scripts/` folder.
+- Tip: `qwerty`
 
 ## Units
 
@@ -61,10 +68,10 @@ There is a total of five projects in the **Create with Code** course. Each proje
     - Colliders and Triggers
 
 - **Features**:
-    - Player-controlled car by arrow keys or WASD.
-    - Camera that follows the player.
-    - Obstacle avoidance
-    - Simple driving simulation
+    - [WASD] keys consrolls.
+    - first and second-person camera (switch by [F] key).
+    - Some stupid bots.
+    - Multiplayer mode (you can play with your friend on the same keyboard)
     - I put an ester egg in the game. 😈
 
 - **Unity Learn**:
@@ -91,11 +98,10 @@ There is a total of five projects in the **Create with Code** course. Each proje
     - Scoring System
 
 - **Features**:
-    - Player-controlled character by arrow keys or WASD.
-    - Food throwing mechanics.
-    - Animals running towards the player.
-    - Collision detection between food and animals.
-    - Scoring system based on the number of animals fed.
+    - [WASD] or [arrows] keys consrolls.
+    - Animals hungerbar, whicth is showing how much they want to eat.
+    - Different animals with different stats.
+    - You're throwing pizzas to animals.
     - I put an ester egg in the game. 😈
 
 - **Unity Learn**:
@@ -122,12 +128,12 @@ There is a total of five projects in the **Create with Code** course. Each proje
     - Dynamic Backgrounds
 
 - **Features**:
-    - Player-controlled character by spacebar.
-    - Obstacles to jump over.
+    - [Space] key consrolls.
+    - Double jump.
+    - Endless runner game.
+    - Animation for player character.
     - Background music and sound effects.
     - Particle effects.
-    - Animation for player character.
-    - Double jump.
     - I put an ester egg in the game. 😈
 
 - **Unity Learn**:
@@ -153,12 +159,15 @@ There is a total of five projects in the **Create with Code** course. Each proje
     - Game Over Screen
 
 - **Features**:
-    - Player-controlled character by arrow keys or WASD.
-    - Forward and backward by [W/S] or [Up/Down] keys. & Rotate camera by [A/D] or [Left/Right] keys.
+    - [W/S] or [Up/Down] keys consrolls for forward and backward.
+    - [A/D] or [Left/Right] keys consrolls for camera rotation.
     - Enemies to knock off the island.
     - Power-ups to increase player abilities.
+        - Strength power-up: Increase the player's strength to knock enemies further.
+        - Fire power-up: throwing lightnings around the player.
+        - Smash power-up: Jump and smash the ground to knock enemies off the island [Space] key.
     - Enemy waves with increasing difficulty.
-    - Game over screen with score display.
+    - Boss figth (every 5th wave), The Boss summons minions.
     - I put an ester egg in the game. 😈
 
 - **Unity Learn**:
@@ -170,16 +179,35 @@ There is a total of five projects in the **Create with Code** course. Each proje
 
 ### [User Interface](User%20Interface)
 
+<div style="display: flex; justify-content: space-between;">
+    <img src="User%20Interface/Screenshots/Screenshot%20ui.png" alt="Screenshot ui" style="width: 49%;">
+    <img src="User%20Interface/Screenshots/Screenshot.png" alt="Screenshot" style="width: 49%;">
+</div>
+
 - **Description**: This project introduces the basics of user interface design in Unity. The player can click on objects to destroy them before they fall off the screen. The project focuses on implementing UI elements such as title screens, difficulty selection, score display, and game over screens.
 
-TODO: Add description, key concepts, features.
+- **Key Concepts**:
+    - Title Screen
+    - Difficulty Selection
+    - Score Display
+    - Game Over Screen
+
+- **Features**:
+    - [Mouse] cursor consrolls.
+    - Difficulty selection (easy, medium, hard).
+    - You can pause.
+    - Destroy objects by clicking on them or swiping the screen.
+    - Background music.
+    - Particle effects.
+    - Not a clone of Fruit Ninja. 🙄
+    - I put an ester egg in the game. 😈
 
 - **Unity Learn**:
     - [Unit 5: User Interface](https://learn.unity.com/project/unit-5-user-interface)
     - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-5-share-your-work) | Not done yet
 
 - **Unity Play**:
-    - [Play the game online](#) | Not Uploaded yet
+    - [Play the game online](https://play.unity.com/en/games/1d5f9996-bf75-42b5-b299-8bb1b7cdf592/user-interface)
 
 ## Requirements
 
