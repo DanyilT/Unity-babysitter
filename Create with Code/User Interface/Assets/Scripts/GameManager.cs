@@ -7,29 +7,34 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public List<GameObject> targets;
-    public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI gameOverText;
-    public Button restartButton;
-    public GameObject titleScreen;
-    public bool isGameActive;
+    [SerializeField] private List<GameObject> targets;
+    [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI livesText;
+    [SerializeField] private TextMeshProUGUI gameOverText;
+    [SerializeField] private GameObject pausePanel;
+    [SerializeField] private Button restartButton;
+    [SerializeField] private Button pauseButton;
+    [SerializeField] private GameObject titleScreen;
+    internal bool isGameActive;
+    private bool isPaused = false;
     private int score = 0;
+    private int lives = 3;
     private float spawnRate = 1.0f;
 
-    private IEnumerator SpawnTarget()
+    public void StartGame(int difficulty)
     {
-        while (isGameActive)
-        {
-            yield return new WaitForSeconds(spawnRate);
-            int index = Random.Range(0, targets.Count);
-            Instantiate(targets[index]);
-        }
+        isGameActive = true;
+        StartCoroutine(SpawnTarget());
+        UpdateScore(score);
+        UpdateLives(0);
+        titleScreen.gameObject.SetActive(false);
+        pauseButton.gameObject.SetActive(true);
+        spawnRate /= difficulty;
     }
 
-    public void UpdateScore(int scoreToAdd)
+    public void RestartGame()
     {
-        score += scoreToAdd;
-        scoreText.text = "Score: \n" + score;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void GameOver()
@@ -39,17 +44,36 @@ public class GameManager : MonoBehaviour
         isGameActive = false;
     }
 
-    public void RestartGame()
+    public void UpdateScore(int scoreToAdd)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        score += scoreToAdd;
+        scoreText.text = "Score: \n" + score;
     }
 
-    public void StartGame(int difficulty)
+    public void UpdateLives(int livesToTake = 1)
     {
-        isGameActive = true;
-        StartCoroutine(SpawnTarget());
-        UpdateScore(score);
-        titleScreen.gameObject.SetActive(false);
-        spawnRate /= difficulty;
+        lives = lives - livesToTake <= 0 ? 0 : lives - livesToTake;
+        livesText.text = "Lives: \n" + lives;
+        if (lives == 0)
+        {
+            GameOver();
+        }
+    }
+
+    public void PauseGame()
+    {
+        isPaused = !isPaused;
+        pausePanel.gameObject.SetActive(isPaused);
+        Time.timeScale = isPaused ? 0 : 1;
+    }
+
+    private IEnumerator SpawnTarget()
+    {
+        while (isGameActive)
+        {
+            yield return new WaitForSeconds(spawnRate);
+            int index = Random.Range(0, targets.Count);
+            Instantiate(targets[index]);
+        }
     }
 }

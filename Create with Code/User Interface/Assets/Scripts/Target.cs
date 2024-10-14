@@ -4,14 +4,14 @@ public class Target : MonoBehaviour
 {
     private Rigidbody targetRb;
     private GameManager gameManager;
-    public ParticleSystem explosionParticle;
+    [SerializeField] private ParticleSystem explosionParticle;
 
     private float minSpeed = 12;
     private float maxSpeed = 16;
     private float maxTorque = 10;
     private float xRange = 4;
     private float ySpawnPos = -2;
-    public int pointValue;
+    [SerializeField] private int pointValue;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,12 +26,7 @@ public class Target : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (gameManager.isGameActive)
-        {
-            Destroy(gameObject);
-            Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
-            gameManager.UpdateScore(pointValue);
-        }
+        DestroyTarget();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -40,7 +35,17 @@ public class Target : MonoBehaviour
 
         if (!gameObject.CompareTag("Bad"))
         {
-            gameManager.GameOver();
+            gameManager.UpdateLives(1);
+        }
+    }
+
+    internal void DestroyTarget()
+    {
+        if (gameManager.isGameActive)
+        {
+            Destroy(gameObject);
+            Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
+            gameManager.UpdateScore(pointValue);
         }
     }
 

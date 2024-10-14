@@ -78,6 +78,7 @@ public class SomethingIsHappeningThere : MonoBehaviour
                 particle.Play();
             }
         }
+        yield return new WaitForSeconds(0.5f);
 
         // Destroy the bomb object
         Destroy(bomb);
