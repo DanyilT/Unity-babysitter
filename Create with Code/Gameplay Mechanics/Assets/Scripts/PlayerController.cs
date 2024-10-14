@@ -10,8 +10,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject firePowerupIndicator;
     [SerializeField] private GameObject smashPowerupIndicator;
     [SerializeField] private GameObject powerupFireRockets;
-    [SerializeField] private float speed = 5.0f;
-    [SerializeField] private float powerupStrength = 15.0f;
+    [SerializeField] private float speed = 5000.0f;
+    [SerializeField] private float powerupStrength = 2000.0f;
+    [SerializeField] private float rocketForce = 500;
     [SerializeField] private float hopHeight = 40.0f;
     [SerializeField] private float smashRadius = 100.0f;
     [SerializeField] private float smashForce = 200.0f;
@@ -33,7 +34,7 @@ public class PlayerController : MonoBehaviour
     {
         // Move the player based on arrow(or WASD) key input
         float verticalInput = Input.GetAxis("Vertical");
-        playerRb.AddForce(focalPoint.transform.forward * speed * verticalInput);
+        playerRb.AddForce(focalPoint.transform.forward * speed * Time.deltaTime * verticalInput);
 
         // Move the powerup indicators to the player's position
         strengthPowerupIndicator.transform.position = transform.position + new Vector3(0, -0.5f, 0);
@@ -100,7 +101,7 @@ public class PlayerController : MonoBehaviour
         {
             Rigidbody enemyRigidbody = collision.gameObject.GetComponent<Rigidbody>();
             Vector3 awayFromPlayer = collision.gameObject.transform.position - transform.position;
-            enemyRigidbody.AddForce(awayFromPlayer * powerupStrength, ForceMode.Impulse);
+            enemyRigidbody.AddForce(awayFromPlayer * powerupStrength * Time.deltaTime, ForceMode.Impulse);
         }
     }
 
@@ -130,7 +131,7 @@ public class PlayerController : MonoBehaviour
         Vector3 spawnPosition = transform.position + randomDirection * 2f;
         GameObject rocket = Instantiate(powerupFireRockets, spawnPosition, powerupFireRockets.transform.rotation);
         Rigidbody rocketRb = rocket.GetComponent<Rigidbody>();
-        rocketRb.AddForce(randomDirection * 500, ForceMode.Impulse);
+        rocketRb.AddForce(randomDirection * rocketForce, ForceMode.Impulse);
         spawnedRockets.Add(rocket);
     }
 

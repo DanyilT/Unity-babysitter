@@ -2315,10 +2315,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7735927407521106664, guid: 75a0d6b47820a8440a7d180dd43b0fce, type: 3}
-      propertyPath: powerupFireRockets
-      value: 
-      objectReference: {fileID: 6057543040386827008, guid: 4cd790abd6658d847b2a950e05a5ddde, type: 3}
-    - target: {fileID: 7735927407521106664, guid: 75a0d6b47820a8440a7d180dd43b0fce, type: 3}
       propertyPath: firePowerupIndicator
       value: 
       objectReference: {fileID: 377888654}
