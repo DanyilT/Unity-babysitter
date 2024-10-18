@@ -1,3 +1,5 @@
+Note: Made `git cherry-pick`, commits: `6766029bc46c9a3686d7618104f9d6c04e2661a2 .. bc413b256c28410fdbc167252d888682a8346444` from `main` branch to `Junior-Programmer` branch. And reset `main` branch to commit before first cherry-pick commit (main branch commit: `34aa873d1f67151596204bab3f7ed50cd70c4d83`), I just move these commits to `Junior-Programmer` branch and then remove them from `main` branch.
+
 # Unity Learn Courses' Projects
 
 This repository have projects from the Unity Learn Courses.
