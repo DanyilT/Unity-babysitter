@@ -5,7 +5,7 @@ public class MainManager : MonoBehaviour
 {
     // Start() and Update() methods deleted - we don't need them right now
 
-    public static MainManager Instance;
+    public static MainManager Instance { get; private set; } // add getter to the end of the line & add private setter
 
     public Color TeamColor; // new variable declared
 

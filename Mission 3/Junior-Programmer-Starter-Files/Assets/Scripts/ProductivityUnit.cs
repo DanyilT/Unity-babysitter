@@ -1,0 +1,45 @@
+using UnityEngine;
+
+public class ProductivityUnit : Unit // replace MonoBehaviour with Unit
+{
+    // new variables
+    private ResourcePile m_CurrentPile = null;
+    public float ProductivityMultiplier = 2;
+
+    public override void GoTo(Building target)
+    {
+        ResetProductivity(); // call your new method
+        base.GoTo(target); // run method from base class
+    }
+
+    public override void GoTo(Vector3 position)
+    {
+        ResetProductivity();
+        base.GoTo(position);
+    }
+
+    protected override void BuildingInRange()
+    {
+        // start of new code
+        if (m_CurrentPile == null)
+        {
+            ResourcePile pile = m_Target as ResourcePile;
+
+            if (pile != null)
+            {
+                m_CurrentPile = pile;
+                m_CurrentPile.ProductionSpeed *= ProductivityMultiplier; // revert '-=' to '*='
+            }
+        }
+        // end of new code
+    }
+
+    void ResetProductivity()
+    {
+        if (m_CurrentPile != null)
+        {
+            m_CurrentPile.ProductionSpeed /= ProductivityMultiplier;
+            m_CurrentPile = null;
+        }
+    }
+}
