@@ -2,24 +2,52 @@ Note: Made `git cherry-pick`, commits: `6766029bc46c9a3686d7618104f9d6c04e2661a2
 
 # Unity Learn Courses' Projects
 
-This repository have projects from the Unity Learn Courses.
+This repository contains projects from various Unity Learn Pathways & Courses. Below you will find information about the different branches, how to switch between them, and how to clone each branch.
+
 - [**My Unity Learn Account**](https://learn.unity.com/u/6346828bedbc2a72ead47d33?tab=profile)
 
 ## Table of Contents
 
-- [Courses](#courses)
 - [Table of Contents](#table-of-contents)
+- [Branches](#branches)
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Courses
+## Branches
 
-### [Create with Code](Create%20with%20Code)
+### `main`
 
-- [Unity Learn Course](https://learn.unity.com/course/create-with-code)
+The `main` branch contains general information and shared resources (such as [`LICENSE`](LICENSE)).
+
+### `Unity-Essential`
+
+The `Unity-Essential` branch contains projects from the [Unity Essentials Pathway](https://learn.unity.com/pathway/unity-essentials).
+
+### `Junior-Programmer`
+
+The `Junior-Programmer` branch contains projects from the [Junior Programmer Pathway](https://learn.unity.com/pathway/junior-programmer).
+
+### Switching Between Branches
+
+If you clone full repository with all branches, you can switch between branches using the following Git commands:
+
+```sh
+# Switch to main branch
+git checkout main
+```
+
+```sh
+# Switch to Unity-Essential branch
+git checkout Unity-Essential
+```
+
+```sh
+# Switch to Junior-Programmer branch
+git checkout Junior-Programmer
+```
 
 ## Requirements
 
@@ -39,9 +67,11 @@ Okay, Here it is:
 
 ## Usage
 
-### Clone the Repository
+### Cloning the Repository
 
-#### Using Git
+#### Clone the Repository full Repo
+
+##### Using Git
 
 1. Install Git
    - If you don't have Git installed, you can download and install it from the [official Git website](https://git-scm.com/downloads).
@@ -49,15 +79,65 @@ Okay, Here it is:
     ```sh
     git clone https://github.com/DanyilT/Unity-babysitter.git
     ```
+3. Choose the branch:
+    - `git checkout <branch-name>`
+    - Switch to `main` branch
+        ```sh
+        git checkout main:
+        ```
+    - Switch to `Unity-Essential` branch:
+        ```sh
+        git checkout Unity-Essential
+        ```
+    - Switch to `Junior-Programmer` branch:
+        ```sh
+        git checkout Junior-Programmer
+        ```
 3. Navigate to the project folder:
     ```sh
    cd <project-folder>
     ```
 
-#### Downloading the ZIP File
+##### Downloading the ZIP File
 
 1. Download the ZIP file from the [GitHub repository](https://github.com/DanyilT/Unity-babysitter.git) and extract it.
 2. Navigate to the project folder in the extracted directory.
+
+#### Clone Specific Branch
+
+##### Using Git
+
+1. Install Git
+   - If you don't have Git installed, you can download and install it from the [official Git website](https://git-scm.com/downloads).
+2. Clone the repository with the specific branch:
+    - `git clone -b <branch-name> --single-branch https://github.com/DanyilT/Unity-babysitter.git`
+    - Clone `main` branch only:
+        ```sh
+        git clone -b main --single-branch https://github.com/DanyilT/Unity-babysitter.git
+        ```
+    - Clone `Unity-Essential` branch only:
+        ```sh
+        git clone -b Unity-Essential --single-branch https://github.com/DanyilT/Unity-babysitter.git
+        ```
+    - Clone `Junior-Programmer` branch only:
+        ```sh
+        git clone -b Junior-Programmer --single-branch https://github.com/DanyilT/Unity-babysitter.git
+        ```
+3. Navigate to the project folder:
+    ```sh
+   cd <project-folder>
+    ```
+
+##### Downloading the ZIP File
+
+1. Go to [GitHub repository](https://github.com/DanyilT/Unity-babysitter.git), and choose the branch you want to download. Download the ZIP file and extract it.
+    - [main branch](https://github.com/DanyilT/Unity-babysitter/tree/main)
+    - [Unity-Essential branch](https://github.com/DanyilT/Unity-babysitter/tree/Unity-Essentials)
+    - [Junior-Programmer branch](https://github.com/DanyilT/Unity-babysitter/tree/Junior-Programmer)
+2. Navigate to the project folder in the extracted directory.
+
+##### Adding Another Branch to Existing Repository
+TODO: Add this section
 
 ### Run the Program
 
@@ -69,17 +149,21 @@ Okay, Here it is:
 
 This repository is structured as follows:
 
-- [`Create with Code/`](Create%20with%20Code/): [More about in this README](#create-with-code)
-    - [`Player Control/..`](Create%20with%20Code/Player%20Control): Unity project for the Player Control unit.
-    - [`Basic Gameplay/..`](Create%20with%20Code/Basic%20Gameplay): Unity project for the Basic Gameplay unit.
-    - [`Sound and Effects/..`](Create%20with%20Code/Sound%20and%20Effects): Unity project for the Sound and Effects unit.
-    - [`Gameplay Mechanics/..`](Create%20with%20Code/Gameplay%20Mechanics): Unity project for the Gameplay Mechanics unit.
-    - [`User Interface/..`](Create%20with%20Code/User%20Interface): Unity project for the User Interface unit.
-    - [`README.md`](Create%20with%20Code/README.md): Contains instructions for the Create with Code course.
+- [`main` branch](https://github.com/DanyilT/Unity-babysitter/tree/main)
+    - [`.gitignore`](.gitignore): Git ignore file to exclude certain files and directories from version control.
+    - [`LICENSE`](LICENSE): License information for the repository.
+    - [`README.md`](README.md): Main documentation file for the repository.
 
-- [`.gitignore`](.gitignore): Git ignore file to exclude certain files and directories from version control.
-- [`LICENSE`](LICENSE): License information for the repository.
-- [`README.md`](README.md): Main documentation file for the repository.
+- [`Unity-Essential` branch](https://github.com/DanyilT/Unity-babysitter/tree/Unity-Essentials)
+    - [Essentials Project](https://github.com/DanyilT/Unity-babysitter/tree/Unity-Essentials/Essentials%20Project)
+    - [`LICENSE`](LICENSE): License information for the repository.
+    - [`README.md`](https://github.com/DanyilT/Unity-babysitter/tree/Unity-Essentials/README.md): Contains instructions for the Unity Essentials course.
+
+- [`Junior-Programmer` branch](https://github.com/DanyilT/Unity-babysitter/tree/Junior-Programmer)
+    - [`Create with Code/`](https://github.com/DanyilT/Unity-babysitter/tree/Junior-Programmer/Create%20with%20Code):
+    - [Junior Programmer Pathway]
+    - [`LICENSE`](LICENSE): License information for the repository.
+    - [`README.md`](https://github.com/DanyilT/Unity-babysitter/tree/Junior-Programmer/README.md): Contains instructions for the Junior Programmer course.
 
 ## Contributing
 
