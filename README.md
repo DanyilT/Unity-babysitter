@@ -36,17 +36,17 @@ If you clone full repository with all branches, you can switch between branches 
 
 ```sh
 # Switch to main branch
-git checkout main
+git switch main
 ```
 
 ```sh
 # Switch to Unity-Essential branch
-git checkout Unity-Essential
+git switch Unity-Essential
 ```
 
 ```sh
 # Switch to Junior-Programmer branch
-git checkout Junior-Programmer
+git switch Junior-Programmer
 ```
 
 ## Requirements
@@ -80,18 +80,18 @@ Okay, Here it is:
     git clone https://github.com/DanyilT/Unity-babysitter.git
     ```
 3. Choose the branch:
-    - `git checkout <branch-name>`
+    - `git switch <branch-name>`
     - Switch to `main` branch
         ```sh
-        git checkout main:
+        git switch main:
         ```
     - Switch to `Unity-Essential` branch:
         ```sh
-        git checkout Unity-Essential
+        git switch Unity-Essential
         ```
     - Switch to `Junior-Programmer` branch:
         ```sh
-        git checkout Junior-Programmer
+        git switch Junior-Programmer
         ```
 3. Navigate to the project folder:
     ```sh
