@@ -8,6 +8,7 @@ This repository (this [`Unity-Essentials`](https://github.com/DanyilT/Unity-baby
 - [Missions](#missions)
 - [Requirements](#requirements)
 - [Usage](#usage)
+    - [Unity Play](#unity-play) $ [Paly the Game](https://play.unity.com/en/games/3cf7e927-d926-4f02-bba3-f32a8dd41fd2/unity-essential-pathway)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
 - [License](#license)
@@ -121,6 +122,10 @@ If you want to run the project, you can find the requirements in this [`README.m
 ## Usage
 
 If you have no idea how to use this repository, how to clone it, how to run the project. You can find this info in this [`README.md`](https://github.com/DanyilT/Unity-babysitter/blob/main/README.md#usage) file in the `main` branch (#Usage)
+
+### Unity Play
+
+You can play the project in the [Unity Paly](https://play.unity.com/en/games/3cf7e927-d926-4f02-bba3-f32a8dd41fd2/unity-essential-pathway).
 
 ## File Structure
 
