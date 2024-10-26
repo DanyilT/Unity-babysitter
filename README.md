@@ -1,6 +1,6 @@
 # Unity Essentials Pathway
 
-This repository (this [`Unity-Essentials`](https://github.com/DanyilT/Unity-babysitter/tree/Unity-Essentials?tab=readme-ov-file) branch) contains projects from the Unity Learn "Unity Essentials Pathway" course.
+This repository (this [`Unity-Essentials`](https://github.com/DanyilT/Unity-babysitter/tree/Unity-Essentials) branch) contains projects from the Unity Learn "Unity Essentials Pathway" course.
 
 ## Table of Contents
 
