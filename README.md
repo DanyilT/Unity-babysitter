@@ -155,13 +155,13 @@ This repository is structured as follows:
     - [`README.md`](README.md): Main documentation file for the repository.
 
 - [`Unity-Essential` branch](https://github.com/DanyilT/Unity-babysitter/tree/Unity-Essentials)
-    - [Essentials Project](https://github.com/DanyilT/Unity-babysitter/tree/Unity-Essentials/Essentials%20Project)
+    - [`Essentials Project/`](https://github.com/DanyilT/Unity-babysitter/tree/Unity-Essentials/Essentials%20Project)
     - [`LICENSE`](LICENSE): License information for the repository.
     - [`README.md`](https://github.com/DanyilT/Unity-babysitter/tree/Unity-Essentials/README.md): Contains instructions for the Unity Essentials course.
 
 - [`Junior-Programmer` branch](https://github.com/DanyilT/Unity-babysitter/tree/Junior-Programmer)
-    - [`Create with Code/`](https://github.com/DanyilT/Unity-babysitter/tree/Junior-Programmer/Create%20with%20Code):
-    - [Junior Programmer Pathway]
+    - [`Create with Code/`](https://github.com/DanyilT/Unity-babysitter/tree/Junior-Programmer/Create%20with%20Code)
+    - [`Mission Checkpoint/`](https://github.com/DanyilT/Unity-babysitter/tree/Junior-Programmer/Mission%20Checkpoint)
     - [`LICENSE`](LICENSE): License information for the repository.
     - [`README.md`](https://github.com/DanyilT/Unity-babysitter/tree/Junior-Programmer/README.md): Contains instructions for the Junior Programmer course.
 
