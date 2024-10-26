@@ -78,11 +78,11 @@ Explore a range of concepts that support basic app functionality including loops
     - Career research and preparation (Tutorial)
     - Introduction to portfolios (Tutorial)
     - Mission Checkpoint
+        - [Quiz](https://learn.unity.com/quiz/quiz-create-with-code-2)
         - [Counting Prototype](Mission%20Checkpoint/Counting%20Prototype)
             - [Uniy Play](https://play.unity.com/en/games/c2c5cc12-f3b9-4ef8-96dd-7a95693d6f34/counting-prototype)
         - [Debug the App](Mission%20Checkpoint/Error%20Project)
             - [Uniy Play](https://play.unity.com/en/games/86f6e0d8-9edf-418f-84b0-246568f568a0/error-project)
-        - [Quiz](https://learn.unity.com/quiz/quiz-create-with-code-2)
 
 ### [Mission 3 - Junior Programmer: Manage Scene Flow and Data](https://learn.unity.com/mission/programming-systems-and-architecture)
 
