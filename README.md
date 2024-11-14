@@ -1,5 +1,8 @@
 # Junior Programmer Pathway
 
+> [!NOTE]
+> Play the game on [Unity Play](https://play.unity.com/en/user/b210660f-08a7-4004-afde-676dd1f0f5ee) or [GitHub Pages](https://github.com/DanyilT/Unity-babysitter/tree/WebGL-Builds)
+
 This repository (this [`Junior-Programmer`](https://github.com/DanyilT/Unity-babysitter/tree/Junior-Programmer) branch) contains projects from the Unity Learn "Junior Programmer Pathway" course.
 
 ## Table of Contents
@@ -54,13 +57,16 @@ Learn about fundamental programming concepts such as variables, functions, and b
     - Getting Started
     - [Unit 1 - Player Control](Create%20with%20Code/Player%20Control)
         - [Uniy Play](https://play.unity.com/en/games/2f69c369-3963-40c4-bd73-013d19a0ed10/player-control)
+        - [GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/Player%20Control)
     - Introduction to project management and teamwork (Tutorial)
     - [Unit 2 - Basic Gameplay](Create%20with%20Code/Basic%20Gameplay)
         - [Uniy Play](https://play.unity.com/en/games/63706822-e5b0-4538-92bf-9a031f0c1e23/basic-gameplay)
+        - [GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/Basic%20Gameplay)
     - Mission Checkpoint
         - [Quiz](https://learn.unity.com/quiz/quiz-create-with-code-1)
         - [Mod the Cube](Mission%20Checkpoint/Mod%20the%20Cube)
             - [Uniy Play](https://play.unity.com/en/games/76fd2060-bc2f-4d6a-b880-c87cb4af8d25/mod-the-cube)
+            - [GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Mission%20Checkpoint/Mod%20the%20Cube)
 
 ### [Mission 2 - Junior Programmer: Create with Code 2](https://learn.unity.com/mission/junior-programmer-create-with-code-2)
 
@@ -69,10 +75,13 @@ Explore a range of concepts that support basic app functionality including loops
 - **Projects:**
     - [Unit 3 - Sound and Effects](Create%20with%20Code/Sound%20and%20Effects)
         - [Uniy Play](https://play.unity.com/en/games/cf27018b-d6a2-4177-9827-58e2ddee2557/sound-and-effects)
+        - [GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/Sound%20and%20Effects)
     - [Unit 4 - Gameplay Mechanics](Create%20with%20Code/Gameplay%20Mechanics)
         - [Uniy Play](https://play.unity.com/en/games/4959666d-9d91-4867-88e2-6ca6d04ba2cd/gameplay-mechanics)
+        - [GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/Gameplay%20Mechanics)
     - [Unit 5 - User Interface](Create%20with%20Code/User%20Interface)
         - [Uniy Play](https://play.unity.com/en/games/1d5f9996-bf75-42b5-b299-8bb1b7cdf592/user-interface)
+        - [GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/User%20Interface)
     - Introduction to user feedback and testing (Tutorial)
     - Next Steps
     - Career research and preparation (Tutorial)
@@ -81,8 +90,10 @@ Explore a range of concepts that support basic app functionality including loops
         - [Quiz](https://learn.unity.com/quiz/quiz-create-with-code-2)
         - [Counting Prototype](Mission%20Checkpoint/Counting%20Prototype)
             - [Uniy Play](https://play.unity.com/en/games/c2c5cc12-f3b9-4ef8-96dd-7a95693d6f34/counting-prototype)
+            - [GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Mission%20Checkpoint/Counting%20Prototype)
         - [Debug the App](Mission%20Checkpoint/Error%20Project)
             - [Uniy Play](https://play.unity.com/en/games/86f6e0d8-9edf-418f-84b0-246568f568a0/error-project)
+            - [GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Mission%20Checkpoint/Error%20Project)
 
 ### [Mission 3 - Junior Programmer: Manage Scene Flow and Data](https://learn.unity.com/mission/programming-systems-and-architecture)
 
@@ -100,6 +111,7 @@ Learn how to manage scene flow and data persistence in Unity.
         - [Quiz](https://learn.unity.com/quiz/quiz-manage-scene-flow-and-data)
         - [Submission: Data persistence in a new repo](Mission%20Checkpoint/Data-Persistence-Starter-Files)
             - [Uniy Play](https://play.unity.com/en/games/015491d3-61ea-4cbe-9447-36d89d65cf9b/data-persistence-starter-files)
+            - [GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Mission%20Checkpoint/Data-Persistence-Starter-Files)
 
 ### [Mission 4 - Junior Programmer: Apply Object-Oriented Principles](https://learn.unity.com/mission/junior-programmer-apply-object-oriented-principles)
 
@@ -115,6 +127,7 @@ Deep-dive into the pillars of object-oriented programming and their application,
         - [Quiz](https://learn.unity.com/quiz/quiz-apply-object-oriented-principles)
         - [Submission: Profile and optimize code](Mission%20Checkpoint/Junior-Programmer-Starter-Files)
             - [Uniy Play](https://play.unity.com/en/games/3cb90f1b-fc18-4a81-85d8-611aee94151a/junior-programmer-starter-files)
+            - [GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Mission%20Checkpoint/Junior-Programmer-Starter-Files)
 
 ## Requirements
 
