@@ -54,7 +54,7 @@ This repository [branch](https://github.com/DanyilT/Unity-babysitter/tree/WebGL-
 - [Project Folder](https://github.com/DanyilT/Unity-babysitter/tree/Junior-Programmer/Mission%20Checkpoint/Mod%20the%20Cube)
 - [WebGL Build](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Mission%20Checkpoint/Mod%20the%20Cube)
 
-#### [Counting Prototype](Junior-Programmer/Mission%20Checkpoint/Counting%20Prototype)\
+#### [Counting Prototype](Junior-Programmer/Mission%20Checkpoint/Counting%20Prototype)
 
 - [Project Folder](https://github.com/DanyilT/Unity-babysitter/tree/Junior-Programmer/Mission%20Checkpoint/Counting%20Prototype)
 - [WebGL Build](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Mission%20Checkpoint/Counting%20Prototype)
