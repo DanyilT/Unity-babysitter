@@ -11,7 +11,7 @@ This repository (this [`Unity-Essentials`](https://github.com/DanyilT/Unity-baby
 - [Missions](#missions)
 - [Requirements](#requirements)
 - [Usage](#usage)
-    - [Unity Play](#unity-play) $ [Play the Game on Unity Play](https://play.unity.com/en/games/3cf7e927-d926-4f02-bba3-f32a8dd41fd2/unity-essential-pathway) $ [Play the Game on GitHub Pages](https://danyilt.github.io/Unity-babysitter/Unity-Essentials/Essentials%20Project)
+    - [Unity Play](#unity-play) $ [Play the Game on Unity Play](https://play.unity.com/en/games/3cf7e927-d926-4f02-bba3-f32a8dd41fd2/unity-essential-pathway) | [Play the Game on GitHub Pages](https://danyilt.github.io/Unity-babysitter/Unity-Essentials/Essentials%20Project)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
 - [License](#license)
