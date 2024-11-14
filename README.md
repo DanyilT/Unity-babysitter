@@ -1,5 +1,8 @@
 # Unity Essentials Pathway
 
+> [!NOTE]
+> Play the game on [Unity Play](https://play.unity.com/en/games/3cf7e927-d926-4f02-bba3-f32a8dd41fd2/unity-essential-pathway) or [GitHub Pages](https://danyilt.github.io/Unity-babysitter/Unity-Essentials/Essentials%20Project)
+
 This repository (this [`Unity-Essentials`](https://github.com/DanyilT/Unity-babysitter/tree/Unity-Essentials) branch) contains projects from the Unity Learn "Unity Essentials Pathway" course.
 
 ## Table of Contents
@@ -8,7 +11,7 @@ This repository (this [`Unity-Essentials`](https://github.com/DanyilT/Unity-baby
 - [Missions](#missions)
 - [Requirements](#requirements)
 - [Usage](#usage)
-    - [Unity Play](#unity-play) $ [Paly the Game](https://play.unity.com/en/games/3cf7e927-d926-4f02-bba3-f32a8dd41fd2/unity-essential-pathway)
+    - [Unity Play](#unity-play) $ [Paly the Game on Unity Play](https://play.unity.com/en/games/3cf7e927-d926-4f02-bba3-f32a8dd41fd2/unity-essential-pathway) $ [Paly the Game on GitHub Pages](https://danyilt.github.io/Unity-babysitter/Unity-Essentials/Essentials%20Project)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
 - [License](#license)
@@ -125,7 +128,7 @@ If you have no idea how to use this repository, how to clone it, how to run the 
 
 ### Unity Play
 
-You can play the project in the [Unity Paly](https://play.unity.com/en/games/3cf7e927-d926-4f02-bba3-f32a8dd41fd2/unity-essential-pathway).
+You can play the project in the [Unity Paly](https://play.unity.com/en/games/3cf7e927-d926-4f02-bba3-f32a8dd41fd2/unity-essential-pathway) or [GitHub Pages](https://danyilt.github.io/Unity-babysitter/Unity-Essentials/Essentials%20Project)
 
 ## File Structure
 
