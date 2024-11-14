@@ -1,5 +1,8 @@
 # Create with Code
 
+> [!NOTE]
+> Play the game on [Unity Play](https://play.unity.com/en/user/b210660f-08a7-4004-afde-676dd1f0f5ee) or [GitHub Pages](https://github.com/DanyilT/Unity-babysitter/tree/WebGL-Builds/Junior-Programmer/Create%20with%20Code)
+
 Welcome to my collection of projects developed as part of the **Create with Code** course by Unity. This course can tell about the fundamentals of game development using Unity and C#. Below, you'll find details on each project I completed along the way.
 
 ## Table of Contents
@@ -8,11 +11,11 @@ Welcome to my collection of projects developed as part of the **Create with Code
     - [Course Structure](#course-structure)
     - [About Easter Eggs](#about-easter-eggs)
 - [Units](#units)
-    - [Unit 1: Player Control](#player-control) $ [Play the game online](https://play.unity.com/en/games/2f69c369-3963-40c4-bd73-013d19a0ed10/player-control)
-    - [Unit 2: Basic Gameplay](#basic-gameplay) $ [Play the game online](https://play.unity.com/en/games/63706822-e5b0-4538-92bf-9a031f0c1e23/basic-gameplay)
-    - [Unit 3: Sound and Effects](#sound-and-effects) $ [Play the game online](https://play.unity.com/en/games/cf27018b-d6a2-4177-9827-58e2ddee2557/sound-and-effects)
-    - [Unit 4: Gameplay Mechanics](#gameplay-mechanics) $ [Play the game online](https://play.unity.com/en/games/4959666d-9d91-4867-88e2-6ca6d04ba2cd/gameplay-mechanics)
-    - [Unit 5: User Interface](#user-interface) $ [Play the game online](https://play.unity.com/en/games/1d5f9996-bf75-42b5-b299-8bb1b7cdf592/user-interface)
+    - [Unit 1: Player Control](#player-control) $ [Play the Game on Unity Play](https://play.unity.com/en/games/2f69c369-3963-40c4-bd73-013d19a0ed10/player-control) | [Play the Game on GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/Player%20Control)
+    - [Unit 2: Basic Gameplay](#basic-gameplay) $ [Play the Game on Unity Play](https://play.unity.com/en/games/63706822-e5b0-4538-92bf-9a031f0c1e23/basic-gameplay) | [Play the Game on GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/Basic%20Gameplay)
+    - [Unit 3: Sound and Effects](#sound-and-effects) $ [Play the Game on Unity Play](https://play.unity.com/en/games/cf27018b-d6a2-4177-9827-58e2ddee2557/sound-and-effects) | [Play the Game on GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/Sound%20and%20Effects)
+    - [Unit 4: Gameplay Mechanics](#gameplay-mechanics) $ [Play the Game on Unity Play](https://play.unity.com/en/games/4959666d-9d91-4867-88e2-6ca6d04ba2cd/gameplay-mechanics) | [Play the Game on GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/Gameplay%20Mechanics)
+    - [Unit 5: User Interface](#user-interface) $ [Play the Game on Unity Play](https://play.unity.com/en/games/1d5f9996-bf75-42b5-b299-8bb1b7cdf592/user-interface) | [Play the Game on GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/User%20Interface)
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [File Structure](#file-structure)
@@ -79,7 +82,8 @@ There is a total of five projects in the **Create with Code** course. Each proje
     - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-1-share-your-work)
 
 - **Unity Play**:
-    - [Play the game online](https://play.unity.com/en/games/2f69c369-3963-40c4-bd73-013d19a0ed10/player-control)
+    - [Play the Game on Unity Play](https://play.unity.com/en/games/2f69c369-3963-40c4-bd73-013d19a0ed10/player-control)
+    - [Play the Game on GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/Player%20Control)
 
 ### [Basic Gameplay](Basic%20Gameplay)
 
@@ -109,7 +113,8 @@ There is a total of five projects in the **Create with Code** course. Each proje
     - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-2-share-your-work)
 
 - **Unity Play**:
-    - [Play the game online](https://play.unity.com/en/games/63706822-e5b0-4538-92bf-9a031f0c1e23/basic-gameplay)
+    - [Play the Game on Unity Play](https://play.unity.com/en/games/63706822-e5b0-4538-92bf-9a031f0c1e23/basic-gameplay)
+    - [Play the Game on GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/Basic%20Gameplay)
 
 ### [Sound and Effects](Sound%20and%20Effects)
 
@@ -141,7 +146,8 @@ There is a total of five projects in the **Create with Code** course. Each proje
     - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-3-share-your-work)
 
 - **Unity Play**:
-    - [Play the game online](https://play.unity.com/en/games/cf27018b-d6a2-4177-9827-58e2ddee2557/sound-and-effects)
+    - [Play the Game on Unity Play](https://play.unity.com/en/games/cf27018b-d6a2-4177-9827-58e2ddee2557/sound-and-effects)
+    - [Play the Game on GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/Sound%20and%20Effects)
 
 ### [Gameplay Mechanics](Gameplay%20Mechanics)
 
@@ -175,7 +181,8 @@ There is a total of five projects in the **Create with Code** course. Each proje
     - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-4-share-your-work)
 
 - **Unity Play**:
-    - [Play the game online](https://play.unity.com/en/games/4959666d-9d91-4867-88e2-6ca6d04ba2cd/gameplay-mechanics)
+    - [Play the Game on Unity Play](https://play.unity.com/en/games/4959666d-9d91-4867-88e2-6ca6d04ba2cd/gameplay-mechanics)
+    - [Play the Game on GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/Gameplay%20Mechanics)
 
 ### [User Interface](User%20Interface)
 
@@ -207,7 +214,8 @@ There is a total of five projects in the **Create with Code** course. Each proje
     - [Bonus Features](https://learn.unity.com/tutorial/bonus-features-5-share-your-work) | Not done yet
 
 - **Unity Play**:
-    - [Play the game online](https://play.unity.com/en/games/1d5f9996-bf75-42b5-b299-8bb1b7cdf592/user-interface)
+    - [Play the Game on Unity Play](https://play.unity.com/en/games/1d5f9996-bf75-42b5-b299-8bb1b7cdf592/user-interface)
+    - [Play the Game on GitHub Pages](https://danyilt.github.io/Unity-babysitter/Junior-Programmer/Create%20with%20Code/User%20Interface)
 
 ## Requirements
 
