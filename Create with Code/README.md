@@ -220,7 +220,7 @@ There is a total of five projects in the **Create with Code** course. Each proje
 ## Requirements
 
 - Unity Editor (It's no matter the version, but I'm used Unity 6 Preview)
-    - Unity 6000.0.21.f1 (If you want to open the project in Unity, It'll ask for this version, but you can use any other version)
+    - Unity 6000.0.25.f1 (If you want to open the project in Unity, It'll ask for this version, but you can use any other version)
 
 ### Installation
 
